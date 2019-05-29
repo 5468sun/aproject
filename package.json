@@ -1,0 +1,31 @@
+{
+  "name": "dproject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.8.3",
+    "react-native": "0.59.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/runtime": "^7.4.5",
+    "babel-jest": "^24.8.0",
+    "babel-plugin-react-native-classname-to-dynamic-style": "^0.22.0",
+    "babel-plugin-react-native-classname-to-style": "^1.2.2",
+    "babel-plugin-react-native-platform-specific-extensions": "^1.1.1",
+    "babel-plugin-react-native-stylename-to-style": "^0.13.0",
+    "jest": "^24.8.0",
+    "less": "^3.9.0",
+    "metro-react-native-babel-preset": "^0.54.1",
+    "react-native-css-transformer": "^1.2.4",
+    "react-native-less-transformer": "^1.2.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

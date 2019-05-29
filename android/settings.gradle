@@ -1,0 +1,3 @@
+rootProject.name = 'dproject'
+
+include ':app'
